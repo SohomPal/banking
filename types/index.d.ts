@@ -87,7 +87,7 @@ declare type Bank = {
   accountId: string;
   bankId: string;
   accessToken: string;
-  fundingSourceURL: string;
+  fundingSourceUrl: string;
   userId: string;
   sharableId: string;
 };
@@ -313,8 +313,8 @@ declare interface createBankAccountProps {
   userId: string;
   accountId: string;
   bankId: string;
-  fundingSourceURL: string;
-  sharableId: string;
+  fundingSourceUrl: string;
+  shareableId: string;
 }
 
 declare interface getBanksProps {
